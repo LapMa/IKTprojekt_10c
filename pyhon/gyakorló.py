@@ -58,17 +58,18 @@ else:
 
 #Feladat5
 """
-szam1 = int(input('Kérek egy szmáot: '))
+szam1 = int(input('Kérek egy számot: '))
 szam2 = int(input('Kérek egy másik számot: '))
 szam3 = int(input('Kérek  egy harmadik számot számot: '))
 
-if szam1 + szam2  szam3:
+if szam1 + szam2 == szam3:
     print("Első szám + második szám",szam3)
-if szam1 + szam3 = szam2:
-    print("Első szám + harmadik szám",szam3)
-if szam2 + szam3 = szam1:
-    print("Másodi szám + harmadik szám",szam3)"""
-
+if szam1 + szam3 == szam2:
+    print("Első szám + harmadik szám",szam2)
+if szam2 + szam3 == szam1:
+    print("Másodi szám + harmadik szám",szam1)
+else:
+    print('Nem egyenlő')"""
 #Feladat6
 """"
 szam1 = int(input('Kérek egy számot: '))
@@ -79,3 +80,11 @@ if szam1 % 2 == 0 and szam2 % 2 == 0 and  szam3 % 2 == 0:
     print('Igen')
 else:
     print('Nem ')"""
+
+#Feladat7
+
+import abc
+
+szo1 = str(input('Kérek egy szót:'))
+szo1 = str(input('Kérek egy másik szót szót:'))
+
