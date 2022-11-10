@@ -82,9 +82,14 @@ else:
     print('Nem ')"""
 
 #Feladat7
-
-import abc
-
+"""
 szo1 = str(input('Kérek egy szót:'))
-szo1 = str(input('Kérek egy másik szót szót:'))
+szo2 = str(input('Kérek egy másik szót szót:'))
+
+list = [szo1,szo2]
+
+print(sorted(list , key=len))"""
+
+
+
 
