@@ -1,3 +1,4 @@
+from distutils.command.build_scripts import first_line_re
 import random
 from string import printable
 #1Feladat
@@ -40,9 +41,15 @@ if szam2 < random1:
 #1CIKLUS
 
 #1Feladat
-
-for paros in range(10):
+"""
+for paros in range(11):
     if paros % 2 ==  0:
-        print(paros)
+        print(paros)"""
 
 #2Feladat
+for x in range(1, 11):
+    x -=11
+    print(abs(x))
+
+#2Feladat
+    
