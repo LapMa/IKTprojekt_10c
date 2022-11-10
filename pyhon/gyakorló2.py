@@ -1,6 +1,4 @@
-from distutils.command.build_scripts import first_line_re
 import random
-from string import printable
 #1Feladat
 """
 str1 = input("Jó napod van? igen/nem:  ")
@@ -47,9 +45,22 @@ for paros in range(11):
         print(paros)"""
 
 #2Feladat
+"""
 for x in range(1, 11):
     x -=11
-    print(abs(x))
+    print(abs(x))"""
 
-#2Feladat
+#3Feladat
+"""
+for x in range(1, 11):
+    if x % 2 == 0:
+        x -=11
+        print(abs(x))"""
+
+#4Feladat
+szo = str(input("Kérek egy szót "))
+ker = int(input("Hányszor? "))
+
+for j in range(ker):
+    print(szo)
     
