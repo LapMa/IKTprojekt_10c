@@ -67,8 +67,7 @@ for j in range(ker):
 """
 #5Feladat 
 """
-paros = int(input("kérek egy páros számot"))
-while :
-for x in range():
-    if paros % 2 == 1:
-        print("pártalan")"""
+maradek = 1
+while maradek != 0:
+    number = int(input("Kérem a számokat"))
+    maradek = number % 2"""
