@@ -24,20 +24,36 @@ while rep != ism:
 list2 = sum(list)
 print(list / ism)"""
 #3Feladat
+also = int(input("Alső szám: "))
+felso = int(input("Felső szám: "))
+
+list = range(also,felso+1)
+sum = 0
+i = 0
+
+for x in list:
+    sum = sum + x
+    i += 1
+
+print(sum, sum/i)
 
 #4Feladat
+"""
 szam1 =1
 while szam1 <= 5:
     print(szam1)
-    szam1 += 1
+    szam1 += 1"""
 
 #5Feladat
-n = 0
+"""
+n = 1
 list = []
 while True:
+    n = int(input("Kérek egy számot: "))
     n += 1
-    n = int(input("Kérek egy számot:"))
-    n.append(list)
-    if n == "":
-        print(sum + list    )
+    list.append(n)
+    if n != "":
+        ossz = sum(n)
+        print(ossz)
+"""
 
