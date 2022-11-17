@@ -10,3 +10,14 @@ while szam <=20:
         szam += 1
 """
 
+
+#2Feladat
+list = []
+szam = int(input("Kérek gy számot: "))
+szam.append(list)
+szam = 0
+for a in list:
+    szam += 1
+    avg = szam / len(list)
+        
+print("A szám átlaga:",szam)

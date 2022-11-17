@@ -16,7 +16,7 @@ elif str1 != "nem" and str1 != "igen":
 #2Feladat
 """
 szam = int(input("Kérek egy számot: "))
-if szam % 2 ==0:
+if szam % 2 == 0:
     print("A szám páros!")
 else:
     print("A szám páratlan!")"""
