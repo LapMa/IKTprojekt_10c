@@ -58,9 +58,17 @@ for x in range(1, 11):
         print(abs(x))"""
 
 #4Feladat
+"""
 szo = str(input("Kérek egy szót "))
 ker = int(input("Hányszor? "))
 
 for j in range(ker):
     print(szo)
-    
+
+#5Feladat 
+
+paros = int(input("kérek egy páros számot"))
+while :
+for x in range():
+    if paros % 2 == 1:
+        print("pártalan")"""
