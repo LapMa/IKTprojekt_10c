@@ -64,9 +64,9 @@ ker = int(input("Hányszor? "))
 
 for j in range(ker):
     print(szo)
-
+"""
 #5Feladat 
-
+"""
 paros = int(input("kérek egy páros számot"))
 while :
 for x in range():

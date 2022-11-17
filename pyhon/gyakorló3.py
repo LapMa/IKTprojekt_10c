@@ -12,12 +12,32 @@ while szam <=20:
 
 
 #2Feladat
+"""
+ism = int(input("Hanyszor"))
+rep = 0
 list = []
-szam = int(input("Kérek gy számot: "))
-szam.append(list)
-szam = 0
-for a in list:
-    szam += 1
-    avg = szam / len(list)
-        
-print("A szám átlaga:",szam)
+while rep != ism:
+    rep += 1
+    szamok = int(input("Szamok:"))
+    list.append(szamok)
+
+list2 = sum(list)
+print(list / ism)"""
+#3Feladat
+
+#4Feladat
+szam1 =1
+while szam1 <= 5:
+    print(szam1)
+    szam1 += 1
+
+#5Feladat
+n = 0
+list = []
+while True:
+    n += 1
+    n = int(input("Kérek egy számot:"))
+    n.append(list)
+    if n == "":
+        print(sum + list    )
+
